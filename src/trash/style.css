@@ -1,0 +1,12 @@
+.hello {
+    color: red;
+    font-family: 'MyFont';
+    background: url('./icon.jpg');
+}
+@font-face {
+    font-family: 'MyFont';
+    src:  url('fontawesome-webfont[1].woff2') format('woff2'),
+          url('iconfont.e504acd[1].woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
